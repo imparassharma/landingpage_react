@@ -1,6 +1,7 @@
 import React from "react";
 import Button from "./button";
-import pic2 from "../images/illustration-intro.png"
+import pic2 from "../images/illustration-intro.png";
+import Createfunctions from "./create_function";
 function Main(){
     return(
         <div className="main">
@@ -11,7 +12,7 @@ function Main(){
                 <Button/>
             </div>
             <div className="middle-section">
-
+                <Createfunctions/>
             </div>
             <div className="bottom-section">
 
