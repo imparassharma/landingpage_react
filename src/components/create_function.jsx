@@ -3,9 +3,9 @@ import Details from "./function_detail";
 import Function from "./function";
 
 function Createfunc(detail){
-    return
-    (
+    return(
         <Function
+            key={detail.id} 
             img = {detail.img}
             text1 = {detail.text1}
             text2 = {detail.text2}

@@ -6,7 +6,7 @@ function Main(){
     return(
         <div className="main">
             <div className="top-section">
-                <img src={pic2}></img>
+                <img src={pic2} alt="main_bg"></img>
                 <h1>All your files in one secure location, accesible anywhere</h1>
                 <p>Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</p>
                 <Button/>
