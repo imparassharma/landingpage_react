@@ -1,9 +1,8 @@
 import React from "react";
-
-function Button(){
+function Button(props){
     return(
         <button className="btn">
-            Get Started
+            {props.text}
         </button>
     )
 }
