@@ -2,6 +2,8 @@ import React from "react";
 import Button from "./button";
 import pic2 from "../images/illustration-intro.png";
 import Createfunctions from "./create_function";
+import Banner from "./banner";
+import Review from "./review";
 function Main(){
     return(
         <div className="main">
@@ -13,6 +15,8 @@ function Main(){
             </div>
             <div className="middle-section">
                 <Createfunctions/>
+                <Banner/>
+                <Review/>
             </div>
             <div className="bottom-section">
 
